@@ -2,7 +2,7 @@
   <div>
     <h1>Minha Lista de Tarefas</h1>
     <!--Abaixo é criado uma função dentro do botão para que quando o usuário clique nele, 
-    o showList se torne positivo, exibindo a lista ou vice-versa-->
+    o showList se torne positivo, exibindo a lista ou vice-versa -->
     <button @click="showHideList()">Mostrar/Ocultar Lista</button>
     <br>
     <input v-focus type="text" v-model="currentTask" @keyup.enter="addTask">
